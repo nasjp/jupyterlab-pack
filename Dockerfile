@@ -8,6 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_15.x | bash - && \
 RUN pip install \
     jupyterlab \
     pandas \
+    sklearn \
     lxml \
     html5lib \
     beautifulsoup4 \
