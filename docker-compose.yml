@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  app:
+    image: utaudeboo/jupyterlab:latest
+    container_name: jupyterlab-env
+    tty: true
+    ports:
+      - 10000:10000
+    volumes:
+      - .:/app:delegated
+      - ./jupyter_config:/root/.jupyter:delegated
