@@ -9,6 +9,7 @@ RUN pip install \
     jupyterlab \
     pandas \
     sklearn \
+    imbalanced-learn \
     lxml \
     html5lib \
     beautifulsoup4 \
