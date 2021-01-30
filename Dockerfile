@@ -16,6 +16,7 @@ RUN pip install \
     torch \
     scipy \
     cython \
+    tqdm \
     jupyter-lsp \
     python-language-server[all]
 
