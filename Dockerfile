@@ -19,6 +19,7 @@ RUN pip install \
     cython \
     tqdm \
     jupyter-lsp \
+    jupyterthemes \
     python-language-server[all]
 
 RUN jupyter labextension install \
