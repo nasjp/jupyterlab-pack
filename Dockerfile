@@ -20,6 +20,7 @@ RUN pip install \
     tqdm \
     jupyter-lsp \
     jupyterthemes \
+    lightgbm \
     python-language-server[all]
 
 RUN jupyter labextension install \
