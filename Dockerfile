@@ -21,6 +21,7 @@ RUN pip install \
     jupyter-lsp \
     jupyterthemes \
     lightgbm \
+    selenium \
     python-language-server[all]
 
 RUN jupyter labextension install \
