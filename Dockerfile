@@ -26,7 +26,6 @@ RUN pip install \
     python-language-server[all]
 
 RUN jupyter labextension install \
-    @lckr/jupyterlab_variableinspector \
     @krassowski/jupyterlab-lsp \
     @axlair/jupyterlab_vim
 
