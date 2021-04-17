@@ -22,6 +22,7 @@ RUN pip install \
     jupyterthemes \
     lightgbm \
     selenium \
+    cached_property \
     python-language-server[all]
 
 RUN jupyter labextension install \
