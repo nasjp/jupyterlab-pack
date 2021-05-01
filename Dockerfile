@@ -23,7 +23,9 @@ RUN pip install \
     lightgbm \
     selenium \
     cached_property \
-    python-language-server[all]
+    python-language-server[all] \
+    optuna \
+    --yes
 
 RUN jupyter labextension install \
     @krassowski/jupyterlab-lsp \
