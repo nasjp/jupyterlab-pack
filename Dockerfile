@@ -25,7 +25,7 @@ RUN pip install \
     cached_property \
     optuna \
     python-language-server[all] \
-    apache-beam[gcp] \
+    apache-beam[gcp]
 
 RUN jupyter labextension install \
     @krassowski/jupyterlab-lsp \
